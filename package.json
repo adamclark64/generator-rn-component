@@ -44,7 +44,7 @@
       "mocha": true
     }
   },
-  "repository": "https://github.com/adamclark64/generator-react-components",
+  "repository": "https://github.com/adamclark64/generator-react-component",
   "scripts": {
     "test": "gulp"
   },
