@@ -1,15 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
-if (process.env.BROWSER) {
-  require('./style.scss');
-}
+import Styles from './style';
 
 function <%= name %> (props) {
   return (
-    <h2>
-      <%= name %> 
-    </h2>
+    <View style={ Styles.container }>
+      <Text style={ Styles.heading }> new stateless <%= name %> component </Text>
+    </View>
   );
 }
 

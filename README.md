@@ -1,7 +1,7 @@
 # generator-baus-component [![NPM version][npm-image]][npm-url] 
 > Builds a single React component to reduce writing code.
 
-![Screenshot](./generator_screenshot.png)
+![Screenshot](generator_screenshot.png)
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-rn-component using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).

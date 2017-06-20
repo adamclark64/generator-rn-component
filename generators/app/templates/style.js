@@ -11,17 +11,7 @@ const Styles = StyleSheet.create({
     fontSize: 20,
     textAlign: 'center',
     marginBottom: 10,
-  },
-  desc: {
-    textAlign: 'center',
-    color: '#333333',
-    width: '80%'
-  },
-  icon: {
-    width: 50,
-    height: 50,
-    tintColor: '#8E8E93',  
-  },
+  }
 });
 
 export default Styles;
