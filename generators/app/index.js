@@ -63,9 +63,9 @@ module.exports = yeoman.Base.extend({
       this.template("_index.js", this.props.componentname +"/index.js", context);    
 
       if (this.props.componentIsStatefull) {
-        this.template("_statefullcomponent.js", this.props.componentname +"/" + this.props.componentname+ ".jsx", context);    
+        this.template("_statefullcomponent.js", this.props.componentname +"/" + this.props.componentname+ ".js", context);    
       } else {
-        this.template("_statelesscomponent.js", this.props.componentname +"/" + this.props.componentname+ ".jsx", context);    
+        this.template("_statelesscomponent.js", this.props.componentname +"/" + this.props.componentname+ ".js", context);    
       }
   }
 });

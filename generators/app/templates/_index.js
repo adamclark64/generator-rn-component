@@ -1,1 +1,1 @@
-module.exports = require('./<%= name %>.jsx');
+module.exports = require('./<%= name %>.js');
