@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import PropTypes from 'prop-types';
-import Styles from './style';
+import Styles from './Styles';
 
 
 class <%= name %> extends Component {
@@ -13,10 +12,5 @@ class <%= name %> extends Component {
     );
   }
 }
-
-
-<%= name %>.propTypes = {
-  name: PropTypes.string
-};
 
 export default <%= name %>;

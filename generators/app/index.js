@@ -57,7 +57,7 @@ module.exports = yeoman.Base.extend({
       };
    
       if (this.props.componentHasStyle) {
-        this.template("style.js", this.props.componentname + "/style.js", context);
+        this.template("Styles.js", this.props.componentname + "/Styles.js", context);
       }
 
       this.template("_index.js", this.props.componentname +"/index.js", context);    

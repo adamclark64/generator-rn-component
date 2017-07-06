@@ -2,14 +2,14 @@ import { StyleSheet } from 'react-native';
 
 const Styles = StyleSheet.create({
   container: {
+    alignItems: 'center',
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
   },
   heading: {
     fontSize: 20,
-    textAlign: 'center',
     marginBottom: 10,
+    textAlign: 'center',
   }
 });
 
